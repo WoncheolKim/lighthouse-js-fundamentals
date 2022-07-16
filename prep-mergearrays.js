@@ -1,7 +1,7 @@
 function merge(arrayA, arrayB) {
   let arrayC = [];
   arrayC = arrayA.concat(arrayB);
-  sortedArray = arrayC.sort();
+  let sortedArray = arrayC.sort();
   return sortedArray;
 }
 
