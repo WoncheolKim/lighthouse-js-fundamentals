@@ -1,12 +1,16 @@
-function howManyHundreds(num) {
-  if (num >= 100) {
-    let amount = num / 100;
-    let amountfloor = Math.floor(amount);
-    return amountfloor;
-    console.log(amountfloor)
-  } else {
-    return 0;
-  }
+//function howManyHundreds(num) {
+//  if (num >= 100) {
+//    let amount = num / 100;
+//    let amountfloor = Math.floor(amount);
+//    return amountfloor;
+//    console.log(amountfloor)
+//  } else {
+//    return 0;
+//  }
+//}
+
+function howManyHundreds(number) {
+  return (number - (number % 100)) / 100;
 }
 
 console.log(howManyHundreds(1000), "=?", 10);
