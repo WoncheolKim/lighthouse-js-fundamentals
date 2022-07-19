@@ -11,14 +11,17 @@ const cars = [
     time: 1568331115463,
     speed: 35
   }
-];
+]
 
 const speed = 38;
-
-function carPassing (cars, speed) {
-  let newCar = { time: Date.now(), speed: speed };
-  cars.push(newCar);
-  console.log(cars);
-};
-
 carPassing(cars, speed);
+console.log(cars);
+
+function carPassing(cars,speed) {
+  let newEntry = {};
+  newEntry.time = Date.now();
+  newEntry.speed = speed;
+  
+  cars.push(newEntry);
+  return(cars);
+}
