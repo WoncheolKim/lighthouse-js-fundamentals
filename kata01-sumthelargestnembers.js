@@ -15,7 +15,6 @@ const sumLargestNumbers = function(data) {
   }
 
   return firstLargest + secondLargest;
-
 }
 
 console.log(sumLargestNumbers([1, 10]));
