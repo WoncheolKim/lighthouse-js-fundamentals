@@ -1,5 +1,5 @@
 const talkingCalendar = function(date) {
-  // Your code here
+
 };
 
 console.log(talkingCalendar("2017/12/02"));
